@@ -11,17 +11,17 @@ namespace MedidoresInteligentes
 {
 
 
-    public partial class AgregarMedidor
+    public partial class AgregarUsuario
     {
 
         /// <summary>
-        /// Control medidorTxt.
+        /// Control nombreTxt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox medidorTxt;
+        protected global::System.Web.UI.WebControls.TextBox nombreTxt;
 
         /// <summary>
         /// Control RequiredFieldValidator1.
@@ -33,13 +33,13 @@ namespace MedidoresInteligentes
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
 
         /// <summary>
-        /// Control fecha.
+        /// Control rutTxt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar fecha;
+        protected global::System.Web.UI.WebControls.TextBox rutTxt;
 
         /// <summary>
         /// Control RequiredFieldValidator2.
@@ -51,13 +51,13 @@ namespace MedidoresInteligentes
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
 
         /// <summary>
-        /// Control ValorTxt.
+        /// Control contraTxt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ValorTxt;
+        protected global::System.Web.UI.WebControls.TextBox contraTxt;
 
         /// <summary>
         /// Control RequiredFieldValidator3.
@@ -67,6 +67,33 @@ namespace MedidoresInteligentes
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
+
+        /// <summary>
+        /// Control correoTxt.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox correoTxt;
+
+        /// <summary>
+        /// Control RequiredFieldValidator4.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
+
+        /// <summary>
+        /// Control medidorDDL.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList medidorDDL;
 
         /// <summary>
         /// Control ingresarBtn.

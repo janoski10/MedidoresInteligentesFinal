@@ -75,7 +75,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AgregarMedidor.aspx" />
+    <Content Include="AgregarUsuario.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="MostrarMedidor.aspx" />
+    <Content Include="MostrarUsuario.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,12 +89,33 @@
     <Compile Include="AgregarMedidor.aspx.designer.cs">
       <DependentUpon>AgregarMedidor.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AgregarUsuario.aspx.cs">
+      <DependentUpon>AgregarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarUsuario.aspx.designer.cs">
+      <DependentUpon>AgregarUsuario.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarMedidor.aspx.cs">
+      <DependentUpon>MostrarMedidor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MostrarMedidor.aspx.designer.cs">
+      <DependentUpon>MostrarMedidor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarUsuario.aspx.cs">
+      <DependentUpon>MostrarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MostrarUsuario.aspx.designer.cs">
+      <DependentUpon>MostrarUsuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Principal.Master.cs">
       <DependentUpon>Principal.Master</DependentUpon>
@@ -112,6 +136,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MedidorModel\MedidorModel.csproj">
+      <Project>{C6161F52-B1D2-4B37-AF46-968422342DCA}</Project>
+      <Name>MedidorModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

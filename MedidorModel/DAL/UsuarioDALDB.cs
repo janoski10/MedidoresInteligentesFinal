@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MedidorModel.DAL
 {
-    internal class UsuarioDALDB : IUsuarioDAL
+    public class UsuarioDALDB : IUsuarioDAL
     {
         private medidores_BDEntities medidorDB = new medidores_BDEntities();
         public void AgregarUsuario(usuario usuario)
