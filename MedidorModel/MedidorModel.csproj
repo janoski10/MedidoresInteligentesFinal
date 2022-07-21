@@ -56,6 +56,7 @@
     <Compile Include="DAL\IMedidorDAL.cs" />
     <Compile Include="DAL\IUsuarioDAL.cs" />
     <Compile Include="DAL\MedidorDALDB.cs" />
+    <Compile Include="DAL\UsuarioDALDB.cs" />
     <Compile Include="medidor.cs">
       <DependentUpon>Medidores_BD_Model.tt</DependentUpon>
     </Compile>
