@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedidoresInteligentes", "MedidoresInteligentes\MedidoresInteligentes.csproj", "{4AB04267-8037-4138-8339-74F6F07CA7B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedidorModel", "MedidorModel\MedidorModel.csproj", "{C6161F52-B1D2-4B37-AF46-968422342DCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4AB04267-8037-4138-8339-74F6F07CA7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AB04267-8037-4138-8339-74F6F07CA7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AB04267-8037-4138-8339-74F6F07CA7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6161F52-B1D2-4B37-AF46-968422342DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6161F52-B1D2-4B37-AF46-968422342DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6161F52-B1D2-4B37-AF46-968422342DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6161F52-B1D2-4B37-AF46-968422342DCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
