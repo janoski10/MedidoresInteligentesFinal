@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<div class="row mt-5">
+    <div class="row mt-5">
     <div class="col-lg-6 mx-auto">
         <div class="card">
             <div class="card-header bg-primary text-white">
@@ -27,7 +27,7 @@
                         <TodayDayStyle BackColor="#CCCCCC" ForeColor="Black" />
                         <WeekendDayStyle BackColor="#FFFFCC" />
                     </asp:Calendar>
-                    <asp:RequiredFieldValidator CssClass="text-danger" ControlToValidate="Calendar1" ID="RequiredFieldValidator2" runat="server" ErrorMessage="Ingrese Fecha Correspondiente"></asp:RequiredFieldValidator>
+                    
                 </div>
 
                 <div class="form-group">
